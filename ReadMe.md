@@ -84,3 +84,24 @@ Before running this project, ensure you have the following installed:
 ```bash
 git clone [https://github.com/your-username/flower-shop-project.git](https://github.com/your-username/flower-shop-project.git)
 cd flower-shop-project
+```
+
+### 2. Backend Setup
+
+Navigate to the server directory and install dependencies
+```
+cd flora-api
+npm install
+```
+
+Configure .env
+```
+DB_NAME
+DB_USER
+DB_PASS
+```
+
+Start the Server
+```
+npm run dev
+```
